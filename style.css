@@ -54,7 +54,7 @@ h1 {
     transform-style: preserve-3d;
 
 }
-.cartao-hover .cartao-interno{
+.cartao:hover .cartao-interno{
     transform: rotateY(180deg);
 }
 .cartao-frente, .cartao-verso{
@@ -64,5 +64,5 @@ position: absolute;
     backface-visibility: hidden;
 }
 .cartao-verso{
-    transform: rotateY(180deg) ;/*rotaciona o cartao 180 graus no eixo Y*/
+    transform: rotateY(180deg);/*rotaciona o cartao 180 graus no eixo Y*/
 }

@@ -43,9 +43,12 @@ main {
 
 h1 {
     color: black;
+    font-size: 32px;
+}
+h2  {
+    color: black;
     font-size: 18px;
 }
-
 .footer {
     background-color: darkslategray;
     padding: 15px 15px;
